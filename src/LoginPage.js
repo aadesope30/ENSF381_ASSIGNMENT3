@@ -1,17 +1,17 @@
 import React from "react";
 import Header from "./components/Header";
-import MainSection from "./components/MainSection";
 import Footer from "./components/Footer";
 
-function HomePage(){
 
-    return(
+function LoginPage() {
+
+    return (
         <div>
             <Header />
-            <MainSection />
+            {/* <LoginForm /> */}
             <Footer />
         </div>
     );
 }
 
-export default HomePage;
+export default LoginPage;

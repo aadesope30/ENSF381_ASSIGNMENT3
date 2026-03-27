@@ -1,10 +1,28 @@
 const reviews = [
-{
-customerName: "Alice Johnson",
-flavorName: " Vanilla Dream",
-review: "The ice cream was delicious and very creamy!",
-rating: 5
-},
-// Add 3 more reviews...
+  {
+    customerName: "Alice Johnson",
+    flavorName: "Vanilla Dream",
+    review: "The ice cream was delicious and very creamy!",
+    rating: 5
+  },
+  {
+    customerName: "Michael Brown",
+    flavorName: "Chocolate Explosion",
+    review: "Rich, smooth, and full of chocolate flavor. I loved every bite!",
+    rating: 5
+  },
+  {
+    customerName: "Sophia Lee",
+    flavorName: "Strawberry Swirl",
+    review: "It tasted fresh and fruity, with the perfect amount of sweetness.",
+    rating: 4
+  },
+  {
+    customerName: "Daniel Carter",
+    flavorName: "Minty Chill",
+    review: "Very refreshing and creamy. The mint flavor was just right.",
+    rating: 4
+  }
 ];
+
 export default reviews;
