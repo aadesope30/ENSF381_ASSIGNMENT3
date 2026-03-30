@@ -4,7 +4,7 @@ function Header() {
     return (
         <div>
             <header>
-                <img src="/images/logo.webp" alt="Logo"/>
+                <img src="/images/logo.webp" alt="Sweet Scoop Logo"/>
                 <h1>SWEET SCOOP ICE CREAM SHOP</h1>
             </header>
 
