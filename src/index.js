@@ -1,3 +1,7 @@
+// Adesope Ajayi - 30194173
+// Stephan Agwai - 30226741
+
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
