@@ -8,7 +8,7 @@ bcrypt = Bcrypt(app)
 
 
 #Registration API
-@app.route('/signup', methods=['POST'])
+@app.route('/signup', methods=['GET'])
 
 def registration():
     data = request.get_json
