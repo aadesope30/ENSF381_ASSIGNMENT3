@@ -132,7 +132,7 @@ function LoginForm() {
         
         <br />
         
-        <p>Forgot Password?</p>
+        <a href ="#">Forgot Password?</a>
 
         {message && <DisplayStatus type={messageType} message={message} />}
       </form>
