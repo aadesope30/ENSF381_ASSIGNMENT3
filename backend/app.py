@@ -118,7 +118,6 @@ def home():
 
 
 # Signup API
-
 @app.route("/signup", methods=["POST"])
 def signup():
     global next_user_id
@@ -189,7 +188,6 @@ def signup():
 
 
 # Login API
-
 @app.route("/login", methods=["POST"])
 def login():
     data = request.get_json()
@@ -234,7 +232,6 @@ def get_reviews():
 
 
 # Flavors API
-
 @app.route("/flavors", methods=["GET"])
 def get_flavors():
     return jsonify({
@@ -245,7 +242,6 @@ def get_flavors():
 
 
 # Get cart API
-
 @app.route("/cart", methods=["GET"])
 def get_cart():
     user_id = request.args.get("userId", type=int)
@@ -265,7 +261,6 @@ def get_cart():
 
 
 # Add to cart API
-
 @app.route("/cart", methods=["POST"])
 def add_to_cart():
     data = request.get_json()
@@ -427,4 +422,4 @@ def get_orders():
     })
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
