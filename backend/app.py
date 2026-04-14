@@ -1,8 +1,8 @@
 """
 ENSF 381 - Assignment 4
 Group Members:
-1. Your Name - UCID
-2. Your Partner Name - UCID
+1. ADESOPE AJAYI - 30194173
+2. STEPHAN AGWAI - 30226741
 """
 
 from flask import Flask, request, jsonify
